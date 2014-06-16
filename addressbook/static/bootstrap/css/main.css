@@ -1,0 +1,30 @@
+body {
+  background: magenta;
+}
+
+h1 {
+  font-weight: 100;
+  color: silver;
+
+}
+
+a {
+  text-decoration: none;
+  color: beige;
+}
+
+form {
+  background: #000;
+
+}
+
+label {
+  color: yellow;
+}
+
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+

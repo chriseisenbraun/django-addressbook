@@ -13,8 +13,9 @@
   <ul>
     {{ form.as_ul }}
   </ul>
-  <input id="save_contact" type="submit" value="Save" />
+  <input id="save_contact" type="submit" value="Save" class="btn btn-info"/>
 </form>
+<h1>Edit Contact</h1>
 
 {% if contact.id %}
 <a href="{% url "contacts-edit-addresses" pk=contact.id %}">
