@@ -3,8 +3,9 @@ body {
 }
 
 h1 {
-  font-weight: 100;
-  color: silver;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 1px;
 
 }
 
@@ -20,11 +21,16 @@ form {
 
 label {
   color: yellow;
+  font-weight: 200;
 }
 
 
 ul, li {
   margin: 0;
   padding: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
